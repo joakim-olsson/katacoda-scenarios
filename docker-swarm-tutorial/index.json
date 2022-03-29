@@ -6,12 +6,16 @@
   "details": {
     "steps": [
       {
-        "title": "Deploy Docker Swarm",
+        "title": "Creating a docker swarm cluster",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Scaling a docker swarm cluster",
         "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
       }
     ],
     "intro": {

@@ -1,4 +1,7 @@
-# Setting up the cluster
+# Deleting a swarm cluster
+
+
+## Remove below, only used as template
 
 For a working docker swarm cluster the relation between the clusters is that of managers and workers.
 
@@ -11,6 +14,7 @@ Run the following command to initialize a docker swarm cluster:
 To verify that the swarm is active, the following command can be used to see some general docker information, including swarm information.
 
 `docker info`{{execute}}
+
 
 `docker service create --replicas 1 --name test alpine ping docker.com`{{execute}}
 

@@ -4,8 +4,11 @@ This is a mostly empty template. To create your own first scenario, duplicate th
 
 ## Description
 
+### What is Docker and Docker Swarm
+
 2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
 
+### Why does this matter?
 Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
 
 ## Learning Objective
