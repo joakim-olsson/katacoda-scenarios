@@ -1,18 +1,15 @@
-## Remove below, only used as template
+# Deleting a swarm cluster
 
-For a working docker swarm cluster the relation between the clusters is that of managers and workers.
+To delete the test service, run the following command:
 
-Setting up the docker swarm cluster is done with the command docker swarm command 'init'. This command can be used with an advertise address flag to
+`docker service rm test`{{execute}}
 
-Run the following command to initialize a docker swarm cluster:
+Now to verify that our deletion was successful, run the following command:
 
-`docker swarm init --advertise-addr 172.18.0.1`{{execute}}
+`docker service inspect test`{{execute}}
 
-To verify that the swarm is active, the following command can be used to see some general docker information, including swarm information.
+The expected response should be `Error: no such service: helloworld`
 
-`docker info`{{execute}}
+The task containers might take a few extra seconds to clean up after the service is deleted. To verify that the task containers have been deleted you can use the following command:
 
-
-`docker service create --replicas 1 --name test alpine ping docker.com`{{execute}}
-
-`docker service ls`{{execute}}
+`docker ps`{{execute}}
