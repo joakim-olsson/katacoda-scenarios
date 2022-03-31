@@ -10,11 +10,11 @@
         "text": "step1.md"
       },
       {
-        "title": "Scaling a docker swarm cluster",
+        "title": "Scaling the docker swarm cluster",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Removing the docker swarm cluster",
         "text": "step3.md"
       }
     ],

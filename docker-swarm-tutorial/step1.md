@@ -1,5 +1,3 @@
-# Setting up the cluster
-
 For a working docker swarm cluster the relation between the clusters is that of managers and workers.
 
 Setting up the docker swarm cluster is done with the command docker swarm command 'init'. This command can be used with an advertise address flag to

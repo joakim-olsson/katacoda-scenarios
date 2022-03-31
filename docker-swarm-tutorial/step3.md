@@ -1,6 +1,3 @@
-# Deleting a swarm cluster
-
-
 ## Remove below, only used as template
 
 For a working docker swarm cluster the relation between the clusters is that of managers and workers.
