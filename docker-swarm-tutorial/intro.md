@@ -32,8 +32,6 @@ There are several reasons why docker clusters are useful for software systems.
 
 - <strong>TODO: Write about effective use of performance due to removing ineffeciencies of the same OS consuming unnecessary disk and computing power</strong>
 
-![DockerVsVM](DockervsVM.png)
-
 ### Learning Objective
 
 - Setup a basic docker cluster using docker swarm mode
