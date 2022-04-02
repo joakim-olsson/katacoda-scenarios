@@ -28,9 +28,9 @@ There are several reasons why docker clusters are useful for software systems.
 
 - <strong>High level of availability and reliability</strong>. In this age companies can lose a large sum of revenue if their services were to go down. Having systems that can guarantee uptime even when some nodes fails are therefore crucial.
 
-- <strong>TODO: Write about fast accessability, meaning that services have less delay due to load balancing due to multiple nodes working together</strong>
+- <strong>Fast accessability</strong>. Having several nodes ready to deliver data lessen the risk of a connection getting oversaturated, leading to better connectivity
 
-- <strong>TODO: Write about effective use of performance due to removing ineffeciencies of the same OS consuming unnecessary disk and computing power</strong>
+- <strong>Effective use of performance</strong>. Using the docker engine to host apps instead of having to spin up a virtual OS for each app allows for better and more efficient usage of computing power.
 
 ![DockerVsVM](./assets/DockervsVM.png)
 
