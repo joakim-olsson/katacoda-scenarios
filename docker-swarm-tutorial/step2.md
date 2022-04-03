@@ -7,11 +7,11 @@ Chaning the desired state of a service in the swarm can be done as follows:
 
 Lets try it out!
 
-`docker service scale helloworld=5`{{execute}}
+`docker service scale test=5`{{execute}}
 
 Run the following to see an updated task list:
 
-`docker service ps helloworld`{{execute}}
+`docker service ps test`{{execute}}
 
 Here we see that there has been 4 new tasks created in the swarm, for a total of 5 instances.
 
