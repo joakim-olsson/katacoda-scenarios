@@ -1,8 +1,8 @@
 {
   "title": "Docker swarm tutorial",
-  "description": "A simple scenario example.",
+  "description": "Docker swarm essentials interactive tutorial",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "10-15 minutes",
   "details": {
     "steps": [
       {
@@ -20,7 +20,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "foreground.sh"
     },
     "finish": {
       "text": "finish.md"

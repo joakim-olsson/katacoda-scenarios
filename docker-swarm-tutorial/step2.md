@@ -1,6 +1,6 @@
 # Scaling the cluster
 
-Now that you have set up the swarm cluster it is time to scale it. 
+Now that you have set up the swarm cluster it is time to scale it.
 
 Chaning the desired state of a service in the swarm can be done as follows:
 `docker service scale <SERVICE-ID>=<NUMBER-OF-TASKS>`
@@ -18,3 +18,7 @@ Here we see that there has been 4 new tasks created in the swarm, for a total of
 To only see the instances running the node that you are connected to, run the following command:
 
 `docker ps`
+
+Visualization of the docker cluster after running all the steps on this page:
+
+![DockerVsVM](./assets/DockerSwarmFiveReplicas.png)
