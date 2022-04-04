@@ -21,3 +21,12 @@ If a node is unresponsive or for some other reason not able to be removed, the `
 `docker node demote <NODENAME>`
 
 Make sure that you always have an odd number of manager nodes if you demote or remove a manager.
+
+<strong>This finalizes this course! You should now have a grasp on the fundamentals of docker swarm and general container orchestration.</strong>
+
+<strong>Bonus</strong>: What is the meaning of life?
+
+Type your answer in the console in the format './\<your answer\>.sh'
+
+Hint:
+>! Type 'ls' in the console for a clue
