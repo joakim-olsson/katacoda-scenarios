@@ -21,15 +21,8 @@ If the node is a manager node then it should first be demoted to a worker node b
 
 Make sure that you always have an odd number of manager nodes if you demote or remove a manager.
 
-<<<<<<< HEAD
 <strong>This finalizes this course! You should now have a grasp on the fundamentals of docker swarm and general container orchestration.</strong>
 
 <strong>Bonus</strong>: What is the meaning of life?
 
 Type your answer in the console in the format './\<your answer\>.sh'
-
-Hint:
->! Type 'ls' in the console for a clue
-=======
-
->>>>>>> ca9a848326bf15ce92f6836f42106f6b9b52d99e
