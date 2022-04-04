@@ -17,7 +17,7 @@ Here we see that there has been 4 new tasks created in the swarm, for a total of
 
 To only see the instances running the node that you are connected to, run the following command:
 
-`docker ps`
+`docker ps`{{execute}}
 
 Visualization of the docker cluster after running all the steps on this page:
 
