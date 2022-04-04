@@ -16,7 +16,7 @@
       {
         "title": "Removing the docker swarm cluster",
         "text": "step3.md",
-        "courseData": "background.sh"
+        "courseData": "script.sh"
       }
     ],
     "intro": {

@@ -25,4 +25,4 @@ Make sure that you always have an odd number of manager nodes if you demote or r
 
 <strong>Bonus</strong>: What is the meaning of life?
 
-Type your answer in the console in the format './\<your answer\>.sh'
+Type your answer in the console in the format: <strong>./"your answer".sh</strong>
