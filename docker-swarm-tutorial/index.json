@@ -15,7 +15,8 @@
       },
       {
         "title": "Removing the docker swarm cluster",
-        "text": "step3.md"
+        "text": "step3.md",
+        "code": "easter.sh"
       }
     ],
     "intro": {
