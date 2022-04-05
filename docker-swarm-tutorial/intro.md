@@ -39,7 +39,7 @@ There are several reasons why docker clusters are useful for software systems.
 - Setup a basic docker cluster using docker swarm mode
 - Scale your docker cluster
 - Removing nodes from the cluster and the cluster itself
-- How to manage docker clusters using docker swarm mode and get a foundation of docker clustering change: (to get an understanding of alternatives such as Kubernetes.)
+- How to manage docker clusters using docker swarm mode and get a foundation of container orchestration. 
 
 ### Table of Contents
 
